@@ -1,0 +1,26 @@
+﻿<Window x:Class="EquipServ.Pages.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EquipServ.Pages"
+        mc:Ignorable="d"
+        Title="LoginWindow" WindowStartupLocation="CenterScreen" Style="{StaticResource Login}">
+    <StackPanel>
+        <Label Style="{StaticResource LoginLabels}" HorizontalAlignment="Center">Вход в систему</Label>
+        <Image Source="/Images/settings.png" Width="178" Height="146" Margin="0 14 0 28"></Image>
+        <Label Style="{StaticResource LoginLabels}" Margin="55 10 0 0">Логин:</Label>
+        <TextBox x:Name="log" Style="{StaticResource LoginPass}"></TextBox>
+        <Line Style="{StaticResource LoginLine}" Margin="0 0 0 20"></Line>
+        <Label Style="{StaticResource LoginLabels}" Margin="55 0 0 0">Пароль:</Label>
+        <PasswordBox x:Name="pass"></PasswordBox>
+        <Line Style="{StaticResource LoginLine}" Margin="0 0 0 20"></Line>
+        <Label x:Name="captchaEx" FontStyle="Italic" FontWeight="Bold" HorizontalAlignment="Center" FontSize="18" FontFamily="Lucida Handwriting" Foreground="Red"></Label>
+        <Label Style="{StaticResource LoginLabels}" Margin="55 10 0 0">Captcha:</Label>
+        <TextBox x:Name="cap" Style="{StaticResource LoginPass}"></TextBox>
+        <Line Style="{StaticResource LoginLine}" Margin="0 0 0 20"></Line>
+        <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center">
+            <Button IsDefault="True" x:Name="sign" Content="Войти" Click="SignIn" Style="{StaticResource LoginButton}" HorizontalAlignment="Center"></Button>
+        </StackPanel>
+    </StackPanel>
+</Window>

@@ -1,0 +1,89 @@
+﻿<Window x:Class="EquipServ.Pages.MainEqExWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EquipServ.Pages"
+        mc:Ignorable="d"
+        Title="MainEqExWindow" Style="{StaticResource AnotherWindows}" WindowStartupLocation="CenterScreen" DataContext="{Binding Mode=OneWay, RelativeSource={RelativeSource Self}}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Image Source="/Images/settings.png" Width="103" Height="81" Grid.Row="0" Grid.Column="0" Margin="0 0 80 0"></Image>
+        <StackPanel Grid.Row="1" Grid.Column="0" Margin="0 30 0 0">
+            <Button Click="CloseAway" Style="{StaticResource Navigation}" Content="Выход"></Button>
+            <Button x:Name="info" Click="toInformation" Style="{StaticResource Navigation}" Margin="0 20 0 20" Content="Информация"></Button>
+            <Button x:Name="annon" Click="toAnnounce" Style="{StaticResource Navigation}" Margin="0 0 0 20" Content="Уведомления"></Button>
+            <Button x:Name="mainPage" Click="toMainPage" Style="{StaticResource Navigation}" Content="Главная страница"></Button>
+
+        </StackPanel>
+        <StackPanel Style="{StaticResource MenuUp}" Grid.Row="0" Grid.Column="1" Margin="0 0 0 30">
+
+            <StackPanel Orientation="Horizontal">
+                <Label>Поиск:</Label>
+                <TextBox x:Name="searchTextBox" Style="{StaticResource MenuSearch}" TextChanged="search"></TextBox>
+                <ComboBox Width="200"></ComboBox>
+            </StackPanel>
+        </StackPanel>
+        <ListView Grid.Row="1" Grid.Column="1"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" ItemsSource="{Binding Requests}" x:Name="allRequests">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Background="#F8F8FF" Margin="0 0 0 0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="375" />
+                            <ColumnDefinition Width="140"/>
+                            <ColumnDefinition Width="189" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Margin="7" Grid.Column="0">
+                            <StackPanel.ToolTip>
+                                <Run Text="{Binding CommentNavigation.CommentName}"/>
+                            </StackPanel.ToolTip>
+                            <TextBlock FontSize="16" TextWrapping="Wrap">
+            Описание: <Run Text="{Binding Description}"/>
+            <LineBreak />
+            Тип: <Run Text="{Binding TypeOfFaultNavigation.TypeOfFaultName}"/> 
+            <LineBreak />
+            Статус: <Run Text="{Binding StatusNavigation.StatusName}"/>
+            <LineBreak/>
+            Клиент: <Run Text="{Binding ClientNavigation.ClientName}"/>
+                    Оборудование: <Run Text="{Binding EquipmentNavigation.EquipmentName}"/>
+                        <LineBreak/>
+                        Дата: <Run Text="{Binding Date}"/>
+                         Срок: <Run Text="{Binding Srok}"/>
+                            </TextBlock>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1">
+                            <ItemsControl ItemsSource="{Binding ExecutorRequests}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock>
+                                            <Run Text="{Binding UserExecutorNavigation.Name}"/>
+                                            <Run Text="{Binding UserExecutorNavigation.LastName}"/>
+                                            <Run Text="{Binding UserExecutorNavigation.Surname}"/>
+                                        </TextBlock>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                        <StackPanel  Grid.Column="2"   VerticalAlignment="Top" >
+                            <Button Style="{StaticResource Help}" Margin="90 0 0 0" Click="addComment">
+                                <Image Source="./Images/comment.png"/>
+                            </Button>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel />
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+        </ListView>
+    </Grid>
+</Window>

@@ -1,0 +1,283 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\st310-09\\Desktop\\EquipServ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|c:\\users\\st310-09\\desktop\\equipserv\\equipserv\\pages\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|solutionrelative:equipserv\\pages\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|C:\\Users\\st310-09\\Desktop\\EquipServ\\equipserv\\pages\\maineqwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|solutionrelative:equipserv\\pages\\maineqwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|c:\\users\\st310-09\\desktop\\equipserv\\equipserv\\pages\\addexecutorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|solutionrelative:equipserv\\pages\\addexecutorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|C:\\Users\\st310-09\\Desktop\\EquipServ\\equipserv\\pages\\informationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|solutionrelative:equipserv\\pages\\informationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|c:\\users\\st310-09\\desktop\\equipserv\\equipserv\\pages\\addrequestwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|solutionrelative:equipserv\\pages\\addrequestwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|c:\\users\\st310-09\\desktop\\equipserv\\equipserv\\pages\\addexecutorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|solutionrelative:equipserv\\pages\\addexecutorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|C:\\Users\\st310-09\\Desktop\\EquipServ\\equipserv\\pages\\addcommentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|solutionrelative:equipserv\\pages\\addcommentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|c:\\users\\st310-09\\desktop\\equipserv\\equipserv\\pages\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|solutionrelative:equipserv\\pages\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|C:\\Users\\st310-09\\Desktop\\EquipServ\\equipserv\\pages\\maineqwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|solutionrelative:equipserv\\pages\\maineqwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|c:\\users\\st310-09\\desktop\\equipserv\\equipserv\\pages\\addrequestwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|solutionrelative:equipserv\\pages\\addrequestwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|C:\\Users\\st310-09\\Desktop\\EquipServ\\equipserv\\pages\\addcommentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|solutionrelative:equipserv\\pages\\addcommentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|c:\\users\\st310-09\\desktop\\equipserv\\equipserv\\pages\\newexecutorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|solutionrelative:equipserv\\pages\\newexecutorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|c:\\users\\st310-09\\desktop\\equipserv\\equipserv\\pages\\newexecutorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|solutionrelative:equipserv\\pages\\newexecutorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|c:\\users\\st310-09\\desktop\\equipserv\\equipserv\\pages\\maineqmawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|solutionrelative:equipserv\\pages\\maineqmawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|C:\\Users\\st310-09\\Desktop\\EquipServ\\equipserv\\pages\\informationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|solutionrelative:equipserv\\pages\\informationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|C:\\Users\\st310-09\\Desktop\\EquipServ\\equipserv\\pages\\maineqmawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A8A2431C-C73D-4BF3-A16A-D6DCD6A40FC0}|EquipServ\\EquipServ.csproj|solutionrelative:equipserv\\pages\\maineqmawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EquipServ\\Pages\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "EquipServ\\Pages\\LoginWindow.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T08:36:38.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "EquipServ\\Pages\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\LoginWindow.xaml",
+              "RelativeToolTip": "EquipServ\\Pages\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-14T08:15:25.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddExecutorWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\AddExecutorWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EquipServ\\Pages\\AddExecutorWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\AddExecutorWindow.xaml.cs",
+              "RelativeToolTip": "EquipServ\\Pages\\AddExecutorWindow.xaml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwDUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T04:59:34.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddExecutorWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\AddExecutorWindow.xaml",
+              "RelativeDocumentMoniker": "EquipServ\\Pages\\AddExecutorWindow.xaml",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\AddExecutorWindow.xaml",
+              "RelativeToolTip": "EquipServ\\Pages\\AddExecutorWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-14T04:55:28.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddRequestWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\AddRequestWindow.xaml",
+              "RelativeDocumentMoniker": "EquipServ\\Pages\\AddRequestWindow.xaml",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\AddRequestWindow.xaml",
+              "RelativeToolTip": "EquipServ\\Pages\\AddRequestWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-14T04:03:22.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddCommentWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\AddCommentWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EquipServ\\Pages\\AddCommentWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\AddCommentWindow.xaml.cs",
+              "RelativeToolTip": "EquipServ\\Pages\\AddCommentWindow.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T07:37:08.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainEqWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\MainEqWindow.xaml",
+              "RelativeDocumentMoniker": "EquipServ\\Pages\\MainEqWindow.xaml",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\MainEqWindow.xaml",
+              "RelativeToolTip": "EquipServ\\Pages\\MainEqWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-13T03:34:28.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddCommentWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\AddCommentWindow.xaml",
+              "RelativeDocumentMoniker": "EquipServ\\Pages\\AddCommentWindow.xaml",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\AddCommentWindow.xaml",
+              "RelativeToolTip": "EquipServ\\Pages\\AddCommentWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-13T07:36:23.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InformationWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\InformationWindow.xaml",
+              "RelativeDocumentMoniker": "EquipServ\\Pages\\InformationWindow.xaml",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\InformationWindow.xaml",
+              "RelativeToolTip": "EquipServ\\Pages\\InformationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-13T06:10:14.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddRequestWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\AddRequestWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EquipServ\\Pages\\AddRequestWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\AddRequestWindow.xaml.cs",
+              "RelativeToolTip": "EquipServ\\Pages\\AddRequestWindow.xaml.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAADgv1QAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T04:05:42.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NewExecutorWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\NewExecutorWindow.xaml",
+              "RelativeDocumentMoniker": "EquipServ\\Pages\\NewExecutorWindow.xaml",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\NewExecutorWindow.xaml",
+              "RelativeToolTip": "EquipServ\\Pages\\NewExecutorWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-14T05:40:55.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NewExecutorWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\NewExecutorWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EquipServ\\Pages\\NewExecutorWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\NewExecutorWindow.xaml.cs",
+              "RelativeToolTip": "EquipServ\\Pages\\NewExecutorWindow.xaml.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T05:41:33.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainEqWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\MainEqWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EquipServ\\Pages\\MainEqWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\MainEqWindow.xaml.cs",
+              "RelativeToolTip": "EquipServ\\Pages\\MainEqWindow.xaml.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAMwF0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T03:45:59.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InformationWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\InformationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EquipServ\\Pages\\InformationWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\InformationWindow.xaml.cs",
+              "RelativeToolTip": "EquipServ\\Pages\\InformationWindow.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T06:18:22.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainEqmaWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\MainEqmaWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EquipServ\\Pages\\MainEqmaWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\MainEqmaWindow.xaml.cs",
+              "RelativeToolTip": "EquipServ\\Pages\\MainEqmaWindow.xaml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T05:47:59.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainEqmaWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\MainEqmaWindow.xaml",
+              "RelativeDocumentMoniker": "EquipServ\\Pages\\MainEqmaWindow.xaml",
+              "ToolTip": "C:\\Users\\st310-09\\Desktop\\EquipServ\\EquipServ\\Pages\\MainEqmaWindow.xaml",
+              "RelativeToolTip": "EquipServ\\Pages\\MainEqmaWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-13T05:45:41.362Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

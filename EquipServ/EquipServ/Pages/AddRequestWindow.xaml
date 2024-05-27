@@ -1,0 +1,103 @@
+﻿<Window x:Class="EquipServ.Pages.AddRequestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EquipServ.Pages"
+        mc:Ignorable="d"
+        Title="AddRequestWindow" Style="{StaticResource AnotherWindows}" WindowStartupLocation="CenterScreen" DataContext="{Binding Mode=OneWay, RelativeSource={RelativeSource Self}}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Image Source="/Images/settings.png" Width="103" Height="81" Grid.Row="0" Grid.Column="0" Margin="0 0 80 0"></Image>
+        <StackPanel Grid.Row="1" Grid.Column="0" Margin="0 30 0 0">
+            <Button Click="Backto" Style="{StaticResource Navigation}" Margin="0 0 0 20" Content="Назад"></Button>
+            <Button Click="Exit" Style="{StaticResource Navigation}" Margin="0 0 0 20" Content="Выход"></Button>
+
+        </StackPanel>
+        <Label x:Name="choose" Grid.Row="0" Grid.Column="1" Style="{StaticResource Header}" Margin="30 35 0 0">Добавление заявки</Label>
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="30,30,0,25" Orientation="Horizontal">
+            <StackPanel>
+                <Label>Описание:</Label>
+                <TextBox x:Name="descriptions" Text="{Binding Requestt.Description}">
+                </TextBox>
+                <Line></Line>
+                <Label>Серийный номер:</Label>
+                <TextBox x:Name="sNum" Text="{Binding Requestt.SerialNumber}">
+                </TextBox>
+                <Line></Line>
+                <Label>Дата начала:</Label>
+                <DatePicker x:Name="exDate" SelectedDate="{Binding Requestt.Date}"></DatePicker>
+                <Line></Line>
+                <Label>Дата срока:</Label>
+                <DatePicker x:Name="srokDate" SelectedDate="{Binding Requestt.Srok}"></DatePicker>
+                <Line></Line>
+                <StackPanel Orientation="Horizontal">
+                    <Label>Оборудование:</Label>
+                    <ComboBox ItemsSource="{Binding Equipments}" SelectedItem="{Binding Requestt.EquipmentNavigation}" x:Name="EqC">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock>
+                                    <Run Text="{Binding EquipmentName}"/>
+                                </TextBlock>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <Label>Тип поломки:</Label>
+                    <ComboBox ItemsSource="{Binding TypeOfFaults}" SelectedItem="{Binding Requestt.TypeOfFaultNavigation}" x:Name="Typec">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock>
+                <Run Text="{Binding TypeOfFaultName}"/>
+                                </TextBlock>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                </StackPanel>
+                
+                
+                <StackPanel Orientation="Horizontal">
+                    <Label>Клиент:</Label>
+                    <ComboBox ItemsSource="{Binding Clients}" SelectedItem="{Binding Requestt.ClientNavigation}" x:Name="ClientC">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock>
+<Run Text="{Binding ClientName}"/>
+                                    <Run Text="{Binding ClientLastName}"/>
+                                    <Run Text="{Binding ClientSurName}"/>
+                                </TextBlock>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <Label>Статус:</Label>
+                    <ComboBox ItemsSource="{Binding Statuses}" SelectedItem="{Binding Requestt.StatusNavigation}" x:Name="statusC">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock>
+                                    <Run Text="{Binding StatusName}"/>
+                                </TextBlock>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Width="276" HorizontalAlignment="Left">
+                    <Button x:Name="add" Click="addorupdate" Style="{StaticResource OformButton}" Margin="0 10 10 0">Добавить</Button>
+                    <Button Click="rem" Style="{StaticResource OformButton}" Margin="15 10 10 0">Отменить</Button>
+                </StackPanel>
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</Window>
